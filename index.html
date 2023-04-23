@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meurastreio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <style>
+      body {
+        padding-top: 4rem;
+      }
+      .navbar-item {
+        padding: 0.5rem 1.5rem;
+      }
+      .navbar-link {
+        cursor: pointer;
+      }
+      .navbar-dropdown {
+        margin-top: 0.25rem;
+      }
+      .navbar-dropdown a {
+        display: block;
+        padding: 0.25rem 1rem;
+        color: #363636;
+      }
+      .navbar-dropdown a:hover {
+        background-color: #f5f5f5;
+      }
+      .clickup-iframe-wrapper {
+        width: 80%;
+        height: 100vh;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      .clickup-embed {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar is-primary is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand" style="background-color: rgb(41, 8, 41)">
+        <a class="navbar-item" href="#">
+          <strong>Meurastreio.com</strong>
+        </a>
+      </div>
+
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">Contato</a>
+            <div class="navbar-dropdown">
+              <a
+                class="navbar-item"
+                href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ClickUp Iframe -->
+    <div class="clickup-iframe-wrapper">
+      <iframe
+        class="clickup-embed clickup-dynamic-height"
+        src="https://doc.clickup.com/9007062246/d/h/8cdtq76-223/288f9834049af3d"
+        width="100%"
+        height="100%"
+        style="background: transparent; border: 1px solid #ccc"
+      ></iframe>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script
+      async
+      src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.js"
+    ></script>
+  </body>
+</html>
